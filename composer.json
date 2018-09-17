@@ -1,0 +1,19 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php-di/php-di": "^6.0",
+        "pimple/pimple": "^3.0",
+        "symfony/dependency-injection": "^3.4",
+        "illuminate/database": "~5.1",
+        "doctrine/orm": "^2",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "files": ["vendor/../app/library/helpers.php"],
+        "psr-4": {
+            "": "vendor/../app",
+            "Lib\\": "vendor/../app/library",
+            "Provider\\": "vendor/../app/providers"
+        }
+    }
+}
